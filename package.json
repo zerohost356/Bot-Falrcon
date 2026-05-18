@@ -1,0 +1,58 @@
+{
+  "name": "falcron",
+  "version": "1.0.0",
+  "description": "A feature-rich, modular Discord bot built with Discord.js — developed by Bucu0368.",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "imports": {
+    "#commands/*": "./commands/*.js",
+    "#command": "./structures/classes/command.js",
+    "#context": "./structures/classes/context.js",
+    "#config": "./config/config.js",
+    "#emoji": "./config/emoji.js",
+    "#dbManager": "./database/manager.js",
+    "#structures/*": "./structures/*.js",
+    "#database/*": "./database/*.js",
+    "#config/*": "./config/*.js",
+    "#utils": "./utils/index.js",
+    "#utils/integrity": "./utils/integrity.js",
+    "#timerUtils": "./utils/timerUtils.js",
+    "#giveawayUtils": "./utils/giveawayUtils.js",
+    "#events/*": "./events/*.js",
+    "#handlers/*": "./structures/handlers/*.js",
+    "#classes/*": "./structures/classes/*.js",
+    "#db/*": "./database/*.js",
+    "#dbRepo/*": "./database/repositories/*.js",
+    "#dbServices/*": "./database/services/*.js",
+    "#src/*": "./*.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "falcron",
+    "aerox",
+    "modular",
+    "invite-tracker",
+    "giveaway"
+  ],
+  "author": "Bucu0368",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/AeroXDevs",
+  "bugs": {
+    "url": "https://discord.gg/AeroX"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dokdo": "^1.0.1",
+    "fs-extra": "^11.3.3",
+    "mongoose": "^9.3.3",
+    "prettier": "^3.8.1"
+  }
+}

@@ -1,0 +1,39 @@
+[38;2;99;179;237m  █████╗ ███████╗██████╗  ██████╗ ██╗  ██╗[0m
+[38;2;118;169;250m  ██╔══██╗██╔════╝██╔══██╗██╔═══██╗╚██╗██╔╝[0m
+[38;2;139;158;255m  ███████║█████╗  ██████╔╝██║   ██║ ╚███╔╝ [0m
+[38;2;167;139;250m  ██╔══██║██╔══╝  ██╔══██╗██║   ██║ ██╔██╗ [0m
+[38;2;192;132;252m  ██║  ██║███████╗██║  ██║╚██████╔╝██╔╝ ██╗[0m
+[38;2;216;118;249m  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝[0m
+
+  [2mDeveloper[0m  [1m[38;2;192;132;252mBucu0368[0m[0m
+
+[38;2;122;122;122m21:58:32[0m [48;2;47;111;214m[38;2;229;233;240m Cache [0m [38;2;216;222;233mCache manager initialized with memory storage[0m
+[38;2;122;122;122m21:58:34[0m [48;2;15;163;127m[38;2;229;233;240m MongoDatabase [0m [38;2;216;222;233mConnected to MongoDB[0m
+[38;2;122;122;122m21:58:34[0m [48;2;15;163;127m[38;2;229;233;240m DatabaseManager [0m [38;2;216;222;233mMongoDB initialized successfully[0m
+[38;2;122;122;122m21:58:34[0m [48;2;47;111;214m[38;2;229;233;240m Bot [0m [38;2;216;222;233mDatabase initialized[0m
+[38;2;122;122;122m21:58:34[0m [48;2;15;163;127m[38;2;229;233;240m EventLoader [0m [38;2;216;222;233mSuccessfully loaded 11 events[0m
+[38;2;122;122;122m21:58:34[0m [48;2;47;111;214m[38;2;229;233;240m CommandHandler [0m [38;2;216;222;233mLoading commands...[0m
+[38;2;122;122;122m21:58:34[0m [48;2;15;163;127m[38;2;229;233;240m CommandHandler [0m [38;2;216;222;233mLoaded 78 prefix and 72 slash commands.[0m
+[38;2;122;122;122m21:58:35[0m [48;2;15;163;127m[38;2;229;233;240m Bot [0m [38;2;216;222;233mLogged in as Bdfd#5731[0m
+[38;2;122;122;122m21:58:35[0m [48;2;47;111;214m[38;2;229;233;240m Bot [0m [38;2;216;222;233mServing 2 guilds[0m
+[38;2;122;122;122m21:58:35[0m [48;2;47;111;214m[38;2;229;233;240m Bot [0m [38;2;216;222;233mInvite cache populated[0m
+[38;2;122;122;122m21:58:36[0m [48;2;47;111;214m[38;2;229;233;240m SlashSync [0m [38;2;216;222;233mSlash commands changed, registering updates...[0m
+[38;2;122;122;122m21:58:36[0m [48;2;15;163;127m[38;2;229;233;240m SlashSync [0m [38;2;216;222;233mSuccessfully registered 71 slash commands.[0m
+[38;2;122;122;122m22:00:03[0m [48;2;194;54;43m[38;2;229;233;240m Utils [0m [38;2;216;222;233mdisableComponents error[0m
+[38;2;76;76;76mDiscordjsError [ChannelNotCached]: Could not find the channel where this message came from in the cache!
+    at Message.edit (/home/runner/workspace/node_modules/discord.js/src/structures/Message.js:840:30)
+    at disableComponents (file:///home/runner/workspace/utils/disableComponents.js:37:13)
+    at InteractionCollector.<anonymous> (file:///home/runner/workspace/commands/meta/general/help.js:225:39)
+    at InteractionCollector.emit (node:events:531:35)
+    at InteractionCollector.stop (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/Collector.js:233:10)
+    at InteractionCollector._handleChannelDeletion (/home/runner/workspace/node_modules/discord.js/src/structures/InteractionCollector.js:240:12)
+    at Bot.emit (node:events:531:35)
+    at ChannelDeleteAction.handle (/home/runner/workspace/node_modules/discord.js/src/client/actions/ChannelDelete.js:18:14)
+    at module.exports [as CHANNEL_DELETE] (/home/runner/workspace/node_modules/discord.js/src/client/websocket/handlers/CHANNEL_DELETE.js:4:32)
+    at WebSocketManager.handlePacket (/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)[0m
+[38;2;122;122;122m22:16:09[0m [48;2;47;111;214m[38;2;229;233;240m Shutdown [0m [38;2;216;222;233mReceived SIGTERM, shutting down gracefully[0m
+[38;2;122;122;122m22:16:09[0m [48;2;196;122;0m[38;2;229;233;240m Bot [0m [38;2;216;222;233mStarting cleanup...[0m
+[38;2;122;122;122m22:16:09[0m [48;2;47;111;214m[38;2;229;233;240m MongoDatabase [0m [38;2;216;222;233mDisconnected from MongoDB[0m
+[38;2;122;122;122m22:16:09[0m [48;2;47;111;214m[38;2;229;233;240m DatabaseManager [0m [38;2;216;222;233mMongoDB connection closed[0m
+[38;2;122;122;122m22:16:09[0m [48;2;15;163;127m[38;2;229;233;240m Bot [0m [38;2;216;222;233mCleanup completed[0m
+[38;2;122;122;122m22:16:09[0m [48;2;15;163;127m[38;2;229;233;240m Shutdown [0m [38;2;216;222;233mBot shut down successfully[0m
