@@ -2,7 +2,7 @@
 
 # 🦅 Bot-Falrcon
 
-<img src="generated-icon.png" width="120" alt="Bot-Falrcon Logo"/>
+<img src="https://cdn.discordapp.com/attachments/1509149017999933535/1509596334196261085/32712e59-a9d4-412a-a209-75e17644695e.png?ex=6a19c0a5&is=6a186f25&hm=fd41ddd4486e461c411abe56cd235513455ae55e968635424391605588e6574f&" width="120" alt="Bot-Falrcon Logo"/>
 
 **A feature-rich, modular Discord bot built with Discord.js**
 
